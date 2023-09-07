@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: whitesmoke;
+    gap: 120px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+#logoname {
+    color: green;
+
+}
+
+.descricao {
+    margin-left: 40px;
+    border: 1px solid;
+    width: 350px;
+}
+
+#texto2 {
+    font-weight: 30;
+    font-size: 1.0rem;
+}
+
+.input {
+    margin-left: 40px;
+    border: 1px solid;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+input {
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 500px;
+    outline: none;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+#Emailfont {
+    font-weight: bold;
+}
+
+#Senhafont {
+    font-weight: bold;
+}
+
+#SenhaEsq {
+   margin-left: 320px;
+   border: 1px solid;
+   font-size: .8rem;
+   font-weight: bold;
+   color: green;
+}
+
+a:hover {
+    color: gray;
+
+}
+
+#password {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/basic-user-interface-2/512/User_Interface-15-256.png);
+}
+
+button {
+    display: flex;
+    color: white;
+    border-radius: 20px;
+    border: 1px gray;
+    width: 500px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    background-color: green;
+}
+
+aside {
+    display: flex;
+    margin-bottom: auto;
+    margin-left: auto;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/783289.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+
+}
