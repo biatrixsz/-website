@@ -15,7 +15,6 @@ main {
     flex-direction: column;
     background-color: whitesmoke;
     gap: 120px;
-    
 }
 
 .logo {
@@ -28,13 +27,17 @@ main {
 
 #logoname {
     color: green;
+    font-size: 3.125rem;
 
 }
 
 .descricao {
     margin-left: 40px;
-    border: 1px solid;
-    width: 350px;
+    width: 450px;
+}
+
+#texto1 {
+    font-size: 2.375rem;
 }
 
 #texto2 {
@@ -44,13 +47,11 @@ main {
 
 .input {
     margin-left: 40px;
-    border: 1px solid;
-    flex-wrap: wrap;
     width: 500px;
 }
 
 input {
-    border-radius: 12px;
+    border-radius: 6px;
     align-items: center;
     justify-content: center;
     height: 40px;
@@ -59,40 +60,64 @@ input {
     padding: 10px 10px;
     box-sizing: border-box;
     border: 1px solid gray;
+    margin: 10px 0 0 0 ;
 }
 
-#Emailfont {
+#Contafont {
     font-weight: bold;
-}
-
-#Senhafont {
-    font-weight: bold;
+    font-size: 1.125rem;
+    margin-left: 5px;
 }
 
 #SenhaEsq {
-   margin-left: 320px;
-   border: 1px solid;
+   margin: 5px;
    font-size: .8rem;
    font-weight: bold;
    color: green;
 }
 
-a:hover {
+#SenhaEsq:hover {
     color: gray;
-
+    transition-property: color;
 }
 
-button {
+#buttonLogin {
     display: flex;
     color: white;
     border-radius: 20px;
-    border: 1px gray;
+    border: 1px white;
     width: 500px;
     height: 40px;
     justify-content: center;
     align-items: center;
     margin: 20px 0 0 0;
     background-color: green;
+}
+
+#buttonLogin:hover {
+    background-color: rgb(197, 238, 144);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#NTconta {
+    display: flex;
+    font-size: 0.75rem;
+    margin: 10px 0 0 0;
+    margin-left: 10px;
+}
+
+#aRegistro {
+    display: flex;
+    font-size: .8rem;
+    font-weight: bold;
+    color: green;
+    margin: 10px;
+}
+
+#aRegistro:hover {
+    color: gray;
+    transition-property: color;
 }
 
 aside {
