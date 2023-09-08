@@ -82,10 +82,6 @@ a:hover {
 
 }
 
-#password {
-    background-image: url(https://cdn4.iconfinder.com/data/icons/basic-user-interface-2/512/User_Interface-15-256.png);
-}
-
 button {
     display: flex;
     color: white;
